@@ -1,0 +1,380 @@
+
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+ font-family: 'Narnoor', serif;
+ font-family: 'Poppins', sans-serif;
+ background-color: #282A35;
+ overflow-x: hidden;
+ overflow-y: auto;
+ color: black;
+}
+.header{
+    background-color: #ffffff;
+    color: black;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    float: left;
+}
+.logo{
+    width: 55px;
+    height: 55px;
+    background-image: url(download.png);
+    background-size: cover;
+   margin:2px 0 0 10px;
+    opacity: 1;
+
+}
+.logo:hover{
+    opacity: 0.7;
+    cursor: pointer; 
+}
+.nav{
+    background-color: #282A35; 
+   color: #f1f1f1; 
+    width: 100%;
+    float: left;
+    height: 35px;
+    letter-spacing: 1px;
+    padding-left: 14px!important;
+    padding-right: 18px!important;
+   font-size: 0.9rem; 
+display: block;
+
+
+}
+    
+ .nav a{
+ display: inline-block;
+ cursor: pointer;
+ text-align: center;
+ padding: 5px 15px 5px 15px;
+ 
+    }
+.nav a:hover{
+   background-color: black;
+
+}
+
+ .nav i{
+cursor: pointer;
+position: relative;
+top: 2px;
+left: 10px;
+
+
+
+   
+ }
+ 
+ /**nvabarbtn*/
+ .boot{
+  width: 100px;
+ height: 35px;
+  font-family: 'Narnoor', serif;
+  position: relative;
+  top: 10px;
+  left: 350px;
+font-weight: 400;
+  
+ }
+ .boot:hover{
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: whitesmoke;
+ }
+    
+ /**navbar**/
+ .navbar{
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+ }
+
+ /* Links inside the navbar */
+ .navbar a{
+    float: left;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+ }
+ /* The dropdown container */
+ .dropdown {
+    
+    overflow: hidden;
+   
+    
+    
+    
+  }
+  .dropbtn{
+    display: block;
+    width: 90px;
+    height: 56px;
+    
+    margin-left: 5px;
+  }
+
+  /* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+     border: none;
+    outline: none;
+    color: #f1f1f1;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+
+   
+  }
+  
+  .dropbtn:hover{
+    background-color: yellowgreen;
+  }
+  .dropbtn i:active{
+    transform: rotate(180deg);
+    
+  }
+
+ 
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(45, 255, 115);
+  }
+  .dropdown .dropbtn:hover {
+    background-color: rgb(45, 255, 115);
+  }
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  /* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+  }
+/* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  /**main-content*/
+
+ .learntocodeh1{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+   
+  }
+ 
+ .main_content{
+  color: #FFC0C7;
+  font-weight: 700;
+  margin-top: 140px!important;
+  font-size: 1rem;
+ }
+ h1{
+  margin: 1px 0 -20px 0 !important;
+  display: block;
+  
+ 
+ }
+ .h1{
+  position: relative;
+  top: 90px;
+ }
+   
+ h3{
+  margin: 10px 0;
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  text-align: center;
+ }
+ #search2{
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid #282A35;
+  border-radius: 25px;
+  width: 400px;
+  float: left;
+  padding-left: 25px;
+  background: white;
+  border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+    border-right: 1px solid #04AA6D;
+    outline: 0;
+    overflow: visible;
+    margin-left: 400px;
+ }
+ .searchbtn{
+  padding: 13px;
+  width:70px ;
+  border: 1px solid #282A35;
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px ;
+  background-color: green;
+  margin-left: -20px;
+  z-index: 1;
+ }
+ .link a{
+  position: relative;
+  left: 500px;
+  top: 10px;
+  font-size: large;
+  color: #ddd;
+ }
+ .link a:hover{
+  color: #04AA6D;
+ }
+ .maincontent{
+  height: 550px;
+ }
+
+ /**html section**/
+ .sectionfirst{
+  background-color: #D9EEE1;
+
+ }
+ .htmltext{
+  width: 400px;
+  height: 600px;
+  position: relative;
+  left: 200px;
+  top: 50px;
+  display: block;
+ }
+ .htmltext span{
+  position: relative;
+  left: 30px;
+ font-size: 4rem;
+ font-weight: 800;
+ }
+ .htmltext button{
+  width: 170px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: large;
+  font-weight: 500;
+  display: flex;
+  position: relative;
+  left: 30px;
+  cursor: pointer;
+ 
+ }
+ .htmlbtn1{
+  background-color: greenyellow;
+  color:white;
+  padding: 15px;
+ 
+  }
+.htmlbtn2{
+ background-color: rgb(255, 241, 47);
+color:white;
+position: relative;
+top: 10px;
+padding: 15px;
+}
+ .htmlbtn3{
+ background-color: rgb(55, 56, 52);
+   color:white;
+   position: relative;
+   top: 15px;
+   padding-top: 10px;
+   }
+   .htmlbtn4{
+    background-color: rgb(247, 127, 197);
+      color:white;
+      position: relative;
+      top: 20px;
+      padding: 15px;
+      }
+
+.rectangle{
+  width: 400px;
+  height: 425px;
+  position: relative;
+  left: 300px;
+  top: 50px;
+  background-color: white;
+  box-shadow: #808fe0;
+}
+.rectangle h3{
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.square{
+  width: 380px;
+  height: 290px;
+  position: relative;
+  left:10px;
+  top: 20px;
+  background-color: #282A35;
+}
+.htmlbtn{
+  width: 125px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: large;
+  font-weight: 500;
+  display: flex;
+  position: relative;
+  left: 0px;
+  top: 2px;
+  cursor: pointer;
+  background-color: greenyellow;
+  color:white;
+ padding-top: 10px;
+  
+}
+.htmlsection1{
+  display: flex;
+}
+footer{
+  background-color: white;
+  margin-left: 10px;
+}
+footer p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact{
+  background-color: white;
+  display: flex;
+}
+h5{
+  font-weight: 500;
+  font-size: 1rem;
+}
